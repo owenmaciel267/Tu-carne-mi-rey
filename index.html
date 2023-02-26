@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Beef</a>
+            <input type="checkbox" id="menu">
+            <label for="menu"> 
+                <img src="./img/menu.png" class="menu-icono" alt="">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <a href="#" >Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#" >Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#" >Productos</a>
+                    </li>
+                    <li>
+                        <a href="#" >Reservaciones</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="./img/car.svg"  id="img-carrito" >
+                        <div  id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                        
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2"> Vaciar carrito</a>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+
+        </div>
+        <div class="header-content container">
+            <h1>Carniceria Tu Carne</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi odio laudantium, dolorem, ipsa amet officiis assumenda delectus doloribus similique, labore itaque fuga! Soluta culpa vitae dicta cum suscipit voluptates excepturi.
+            </p>
+            <div class="botons">
+                <a href="#" class="btn-1">Mas Informacion</a>
+                <a href="#" class="btn-1">Menu</a>
+            </div>
+            <div class="socials-1">
+                <img src="./img/s1.svg" alt="instagram">
+                <img src="./img/s2.svg" alt="facebook">
+                <img src="./img/s3.svg" alt="twetter">
+            </div>
+            <a href="#lista">
+                <img src="./img/arrow.svg" class="arrow" alt="flecha">
+            </a>
+        </div>
+    </header>
+
+    <section class="recetas container">
+        <div class="recetas-1">
+            <h3>135 modo de preparar  Carne</h3>
+            <hr>
+            <p>Recetas</p>
+        </div>
+        <div class="recetas-2">
+            <h2>135 <br>Recetas <br> de carne </h2>
+        </div>
+        
+    </section>
+
+    <!-- Swiper-1 -->
+    <section class="platillos container" id="lista">
+
+        <div class="swiper MySwiper">
+            <!-- Additional required wrapper -->
+            
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Corte americano</h3>
+                        <p class="precio">$200</p>
+                        <img src="./img/pl1.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque omnis, dolor optio natus molestias aliquid ex cumque 
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Corte americano</h3>
+                        <p class="precio">$200</p>
+                        <img src="./img/pl2.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque omnis, dolor optio natus molestias aliquid ex cumque 
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Corte americano</h3>
+                        <p class="precio">$200</p>
+                        <img src="./img/pl3.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque omnis, dolor optio natus molestias aliquid ex cumque 
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Corte americano</h3>
+                        <p class="precio">$200</p>
+                        <img src="./img/pl4.png" alt="">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque omnis, dolor optio natus molestias aliquid ex cumque 
+                        </p>
+                        <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <section class="recetas container">
+        <div class="recetas-2">
+            <h2> 100 <br> Tipos <br> de carne </h2>
+        </div>
+        <div class="recetas-1">
+                <h3>135 modo de preparar  Carne</h3>
+                <hr>
+                <p>Kg</p>
+        </div>
+    </section>
+
+    <!-- Swiper-2 -->
+    <section class="platillos container" id="lista-2">
+        <div class="swiper MySwiper">
+            <!-- Additional required wrapper -->
+            
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Corte Argentino</h3>
+                        <p class="precio">$200</p>
+                        <img src="./img/c1.png" alt="">
+                        <p class="c2">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque omnis, dolor optio natus molestias aliquid ex cumque 
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Corte Argentino</h3>
+                        <p class="precio">$200</p>
+                        <img src="./img/c2.png" alt="">
+                        <p class="c2">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque omnis, dolor optio natus molestias aliquid ex cumque 
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Corte Argentino</h3>
+                        <p class="precio">$200</p>
+                        <img src="./img/c3.png" alt="">
+                        <p class="c2">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque omnis, dolor optio natus molestias aliquid ex cumque 
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3 class="c1">Corte Argentino</h3>
+                        <p class="precio">$200</p>
+                        <img src="./img/c2.png" alt="">
+                        <p class="c2">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque omnis, dolor optio natus molestias aliquid ex cumque 
+                        </p>
+                        <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+    </section>
+
+
+    <section class="recetas container">
+        <div class="recetas-1">
+            <hr>
+            <p>Contacto</p>
+        </div>
+    </section>
+
+
+    <footer class="footer container">
+        <div class="links">
+            <div class="link">
+                <h3>Redes</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis dignissimos veritatis itaque inventore fugit. Beatae, dignissimos? Nemo voluptatibus laborum modi 
+                </p>
+                <div class="socials-2">
+                    <img src="./img/s1.svg" alt="">
+                    <img src="./img/s2.svg" alt="">
+                    <img src="./img/s3.svg" alt="">
+                </div>
+            </div>
+
+            <div class="link">
+                <h3>
+                    Lorem
+                </h3>
+                <ul>
+                    <li>
+                        <a href="#">loremm</a>
+                    </li>
+                    <li>
+                        <a href="#">loremm</a>
+                    </li>
+                    <li>
+                        <a href="#">loremm</a>
+                    </li>
+                    <li>
+                        <a href="#">loremm</a>
+                    </li>
+                    <li>
+                        <a href="#">loremm</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>Contactar con desarrollador</h3>
+                <form>
+                    <input type="text" placeholder="Nombre" class="inp">
+                    <input type="email" placeholder="Gmail" class="inp">
+                    <textarea class="inp"></textarea>
+                    <input type="submit" value="enviar" class="btn-4">
+                </form>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
